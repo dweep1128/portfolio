@@ -624,33 +624,33 @@
             <summary class="row__summary">
               <span class="row__num t-number" aria-hidden="true">06</span>
               <span class="row__main">
-                <span class="row__title t-h3">AutoVal</span>
+                <span class="row__title t-h3">Attrition Assessment</span>
                 <span class="row__hook">
-                  Instant data-driven used-car valuations for Indian consumers.
+                  XGBoost model for people-analytics attrition risk scoring.
                 </span>
                 <span class="row__meta">
-                  <span class="tag tag--live">Live app</span>
-                  <span class="tag tag--stack">Flask</span>
+                  <span class="tag tag--live">Live demo</span>
+                  <span class="tag tag--repo">Repository</span>
+                  <span class="tag tag--stack">FastAPI</span>
                   <span class="tag tag--stack">XGBoost</span>
-                  <span class="tag tag--stack">Optuna</span>
                   <span class="tag tag--stack">Render</span>
+                  <span class="tag tag--stack">GitHub Pages</span>
+                  <span class="tag tag--stack">HTML/CSS/JS</span>
                 </span>
               </span>
               <span class="row__marker" aria-hidden="true"></span>
             </summary>
             <div class="row__body">
-              <dl class="metrics">
-                <div class="metrics__item"><dt>Accuracy</dt><dd>91%</dd></div>
-              </dl>
               <ul class="row__bullets">
-                <li>Used-car pricing in India is opaque and dealer-led; a buyer has no independent number to argue from.</li>
-                <li>End-to-end pipeline — cleaning, feature build, XGBoost tuned with Optuna — deployed as a Flask REST backend on Render.</li>
+                <li>FastAPI backend serving an XGBoost classifier, deployed on Render.</li>
+                <li>Vanilla HTML/CSS/JS frontend built with Claude Code, deployed via GitHub Pages.</li>
+                <li>21-field intake form — demographics, role and assignment, compensation, self-reported satisfaction and engagement, work history — returns a modelled probability of attrition against a configurable 0.50 decision threshold.</li>
+                <li>Frontend-backend API integration wired end-to-end.</li>
               </ul>
-              <!-- Live URL and repo not published here yet. Paste them in:
-                   <p class="row__links">
-                     <a class="btn offset--sm" href="" rel="noopener">Open the app ↗</a>
-                     <a class="btn offset--sm" href="" rel="noopener">Source ↗</a>
-                   </p> -->
+              <p class="row__links">
+                <a class="btn offset--sm" href="https://dweep1128.github.io/ibm-attrition-xgboost/" rel="noopener">Open the app ↗</a>
+                <a class="btn offset--sm" href="https://github.com/dweep1128/ibm-attrition-xgboost" rel="noopener">Source ↗</a>
+              </p>
             </div>
           </details>
 
@@ -665,10 +665,14 @@
                   purchasing personas.
                 </span>
                 <span class="row__meta">
+                  <span class="tag tag--live">Live demo</span>
                   <span class="tag tag--repo">Repository</span>
                   <span class="tag tag--stack">K-Means</span>
                   <span class="tag tag--stack">PCA</span>
                   <span class="tag tag--stack">Scikit-Learn</span>
+                  <span class="tag tag--stack">FastAPI</span>
+                  <span class="tag tag--stack">Render</span>
+                  <span class="tag tag--stack">GitHub Pages</span>
                 </span>
               </span>
               <span class="row__marker" aria-hidden="true"></span>
@@ -677,9 +681,14 @@
               <ul class="row__bullets">
                 <li>PCA dimensionality reduction ahead of K-Means, so the clusters separate on real variance instead of on noise.</li>
                 <li>Four personas a marketing team can act on — targeted campaigns instead of blanket messaging.</li>
+                <li>FastAPI backend serving the clustering model, deployed on Render.</li>
+                <li>Frontend built in vanilla HTML/CSS/JS with Claude Code, deployed via GitHub Pages.</li>
+                <li>Segments a shopper profile — demographics, household, membership, category spend, purchase channels — into one of four behavioral clusters learned from 2,236 loyalty members.</li>
               </ul>
-              <!-- Repo URL not published here yet. Paste it in:
-                   <p class="row__links"><a class="btn offset--sm" href="" rel="noopener">Source ↗</a></p> -->
+              <p class="row__links">
+                <a class="btn offset--sm" href="https://dweep1128.github.io/SmartCart-Customer-Segmentation/" rel="noopener">Open the app ↗</a>
+                <a class="btn offset--sm" href="https://github.com/dweep1128/SmartCart-Customer-Segmentation" rel="noopener">Source ↗</a>
+              </p>
             </div>
           </details>
 
