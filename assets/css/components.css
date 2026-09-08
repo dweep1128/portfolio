@@ -352,14 +352,16 @@
   color: var(--ink);
 }
 
-/* A metric strip — the numbers a reviewer actually scans for. */
+/* A metric strip — the numbers a reviewer actually scans for.
+   Solid ink fill so it reads as a highlighted panel on any card accent
+   (blue, coral, sun, emerald), not a same-colour box with an outline. */
 .metrics {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2xs);
   padding: var(--space-sm);
-  background-color: var(--sun);
-  color: var(--on-sun);
+  background-color: var(--ink);
+  color: var(--on-ink);
   border: var(--rule) solid var(--ink);
 }
 
@@ -376,6 +378,7 @@
   font-family: var(--font-mono);
   font-size: var(--fs-small);
   font-weight: var(--wght-bold);
+  color: var(--emerald);
 }
 
 .metrics__item {
