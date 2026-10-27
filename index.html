@@ -102,6 +102,7 @@
     <nav class="wrap site-nav__inner" aria-label="Primary">
       <a class="site-nav__mark t-wordmark" href="index.html" data-rise>Dweep Shishodia</a>
       <ul class="nav-links t-micro">
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Work</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#certifications" aria-label="Certifications and achievements">Certs</a></li>
@@ -119,7 +120,7 @@
       <div class="wrap">
 
         <p class="hero__eyebrow t-micro" data-rise>
-          ML Engineer · BS Data Science, IIT Madras · Building matri6
+          Founding AI Engineer at Cordia · Co-founder at Matri6 (Paleskies, Brickstone) · AI Solution Intern at GCEC Global Foundation
         </p>
 
         <h1 class="hero__headline" id="hero-headline">
@@ -203,9 +204,10 @@
               Compassion-a-thon 3.0.
             </p>
             <p>
-              I'm currently a second-year BS Data Science student at IIT Madras
-              (CGPA 8.0, Foundational Level complete) and a freelance ML engineer.
-              Open to research assistantships, internships, and full-time roles.
+              I'm a Founding AI Engineer at Cordia, co-founder at Matri6
+              (Paleskies, Brickstone), and AI Solution Intern at GCEC Global
+              Foundation. Alongside, I'm a second-year BS Data Science student at
+              IIT Madras (CGPA 8.0), focused on ML and GenAI.
             </p>
           </div>
 
@@ -357,9 +359,10 @@
 
           <li class="card cert offset--sm">
             <p class="card__label card__label--blue t-micro">Coursework</p>
-            <h3 class="t-h3">Foundational Level — BS Data Science</h3>
+            <h3 class="t-h3">Foundation Level — Programming and Data Science</h3>
             <p class="cert__meta t-micro">
-              <span>IIT Madras</span>
+              <span>IIT Madras BS</span>
+              <span>20 Sept 2026</span>
               <span>24 credits completed</span>
             </p>
             <p class="cert__body">
@@ -415,6 +418,39 @@
     </section>
 
     <!-- ================================================================
+         EXPERIENCE — numbered newest first; the number encodes the timeline.
+         ================================================================ -->
+    <section id="experience" class="band" aria-labelledby="experience-title">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="section-head__eyebrow t-micro">Experience</p>
+          <h2 id="experience-title">Where I work</h2>
+        </header>
+
+        <ol class="grid" data-reveal>
+          <li class="step step--emerald offset--sm">
+            <p class="step__num t-number" aria-hidden="true">01</p>
+            <p class="t-micro">2026 – present</p>
+            <h3>Founding AI Engineer, Cordia</h3>
+            <p>Own the model and memory service, the reasoning backend the agent dashboard calls. Built the client discovery survey chatbot (Gemini API + Supabase).</p>
+          </li>
+          <li class="step step--blue offset--sm">
+            <p class="step__num t-number" aria-hidden="true">02</p>
+            <p class="t-micro">2026 – present</p>
+            <h3>Co-founder, Matri6</h3>
+            <p>Building Paleskies (AI product video generation for D2C brands) and Brickstone (AI for architecture).</p>
+          </li>
+          <li class="step step--sun offset--sm">
+            <p class="step__num t-number" aria-hidden="true">03</p>
+            <p class="t-micro">Sept 2026 – Mar 2027</p>
+            <h3>AI Solution Intern, GCEC Global Foundation, Jaipur</h3>
+            <p>Six-month internship building AI automations and learning dashboards for the academic team.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================================
          PROJECTS — numbered in reverse chronological order. The number
          encodes the timeline, which is why the date sits beside it.
          Built on <details>: fully usable with JavaScript disabled.
@@ -423,7 +459,7 @@
       <div class="wrap">
         <header class="section-head" data-reveal>
           <p class="section-head__eyebrow t-micro">Selected work</p>
-          <h2 id="projects-title">Seven things that shipped</h2>
+          <h2 id="projects-title">Nine things I've built</h2>
           <p class="section-head__sub">
             Newest first. Open a row for the problem, the approach, and the result.
           </p>
@@ -472,6 +508,47 @@
             <summary class="row__summary">
               <span class="row__num t-number" aria-hidden="true">02</span>
               <span class="row__main">
+                <span class="row__title t-h3">Brickstone</span>
+                <span class="row__hook">
+                  An AI for architecture. Prototype in development under Matri6.
+                </span>
+                <span class="row__meta">
+                  <span class="tag tag--work">Under Matri6 · In development</span>
+                </span>
+              </span>
+              <span class="row__marker" aria-hidden="true"></span>
+            </summary>
+            <div class="row__body">
+              <p>An AI for architecture. Prototype in development under Matri6.</p>
+            </div>
+          </details>
+
+          <!-- 03 ------------------------------------------------------- -->
+          <details class="row" name="projects">
+            <summary class="row__summary">
+              <span class="row__num t-number" aria-hidden="true">03</span>
+              <span class="row__main">
+                <span class="row__title t-h3">Cordia</span>
+                <span class="row__hook">
+                  An AI Forward Deployed Engineer agent that proposes a personalized, least-privilege workspace.
+                </span>
+                <span class="row__meta">
+                  <span class="tag tag--work">Founding AI Engineer</span>
+                </span>
+              </span>
+              <span class="row__marker" aria-hidden="true"></span>
+            </summary>
+            <div class="row__body">
+              <p>Cordia is an AI Forward Deployed Engineer agent. A short situational survey captures how a person thinks and works, and from it Cordia proposes a personalized, least-privilege workspace of connected tools. The user approves before anything is built, and the agent keeps learning through a plain-language memory file. I own the model and memory service and built the client discovery survey chatbot (Gemini API + Supabase).</p>
+              <p class="t-micro">Survey → profile working · workspace build in progress</p>
+            </div>
+          </details>
+
+          <!-- 04 ------------------------------------------------------- -->
+          <details class="row" name="projects">
+            <summary class="row__summary">
+              <span class="row__num t-number" aria-hidden="true">04</span>
+              <span class="row__main">
                 <span class="row__title t-h3">Personality Assessment AI</span>
                 <span class="row__hook">
                   Adaptive personality assessment making psychological self-insight
@@ -496,10 +573,10 @@
             </div>
           </details>
 
-          <!-- 03 ------------------------------------------------------- -->
+          <!-- 05 ------------------------------------------------------- -->
           <details class="row" name="projects">
             <summary class="row__summary">
-              <span class="row__num t-number" aria-hidden="true">03</span>
+              <span class="row__num t-number" aria-hidden="true">05</span>
               <span class="row__main">
                 <span class="row__title t-h3">Rizzing</span>
                 <span class="row__hook">
@@ -535,10 +612,10 @@
             </div>
           </details>
 
-          <!-- 04 ------------------------------------------------------- -->
+          <!-- 06 ------------------------------------------------------- -->
           <details class="row" name="projects">
             <summary class="row__summary">
-              <span class="row__num t-number" aria-hidden="true">04</span>
+              <span class="row__num t-number" aria-hidden="true">06</span>
               <span class="row__main">
                 <span class="row__title t-h3">AgroNav</span>
                 <span class="row__hook">
@@ -575,10 +652,10 @@
             </div>
           </details>
 
-          <!-- 05 ------------------------------------------------------- -->
+          <!-- 07 ------------------------------------------------------- -->
           <details class="row" name="projects">
             <summary class="row__summary">
-              <span class="row__num t-number" aria-hidden="true">05</span>
+              <span class="row__num t-number" aria-hidden="true">07</span>
               <span class="row__main">
                 <span class="row__title t-h3">StockSense</span>
                 <span class="row__hook">
@@ -620,10 +697,10 @@
             </div>
           </details>
 
-          <!-- 06 ------------------------------------------------------- -->
+          <!-- 08 ------------------------------------------------------- -->
           <details class="row" name="projects">
             <summary class="row__summary">
-              <span class="row__num t-number" aria-hidden="true">06</span>
+              <span class="row__num t-number" aria-hidden="true">08</span>
               <span class="row__main">
                 <span class="row__title t-h3">Attrition Assessment</span>
                 <span class="row__hook">
@@ -655,10 +732,10 @@
             </div>
           </details>
 
-          <!-- 07 ------------------------------------------------------- -->
+          <!-- 09 ------------------------------------------------------- -->
           <details class="row" name="projects">
             <summary class="row__summary">
-              <span class="row__num t-number" aria-hidden="true">07</span>
+              <span class="row__num t-number" aria-hidden="true">09</span>
               <span class="row__main">
                 <span class="row__title t-h3">SmartCart</span>
                 <span class="row__hook">
