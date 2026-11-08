@@ -1,0 +1,10 @@
+/* Progressive enhancement for the production portfolio. */
+[data-case],.motion-toggle,.copy-email,.pipeline-controls,.model-toolbar{display:none}
+.js-ready [data-case],.js-ready .motion-toggle,.js-ready .copy-email{display:inline-block}
+.js-ready .pipeline-controls,.js-ready .model-toolbar{display:flex}
+.js-ready .case-fallback{display:none}
+.case-fallback{flex-basis:100%;color:var(--muted);font-size:13px;line-height:1.7}
+.case-fallback summary{cursor:pointer;color:var(--accent);padding:12px 0}
+.case-fallback h4{color:var(--fg);margin:20px 0 8px;font-size:15px}
+.case-fallback p{margin:0 0 14px}
+@media(max-width:700px){.js-ready .model-toolbar{display:block}}

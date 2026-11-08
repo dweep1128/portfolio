@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://dweep.matri6.com/sitemap.xml
+Sitemap: https://dweep.me/sitemap.xml
